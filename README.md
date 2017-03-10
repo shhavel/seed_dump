@@ -98,7 +98,7 @@ Options are common to both the Rake task and the console, except where noted.
 `model[s]`: Restrict the dump to the specified comma-separated list of models.  Default: all models.  If you are using a Rails engine you can dump a specific model by passing "EngineName::ModelName". Rake task only.
 
 
-Bulk Import with [activarecord-import](https://github.com/zdennis/activerecord-import) ( [wiki](https://github.com/zdennis/activerecord-import/wiki) )
+Bulk Import with [activerecord-import](https://github.com/zdennis/activerecord-import) ( [wiki](https://github.com/zdennis/activerecord-import/wiki) )
 ----------
 
     $ rake db:seed:dump USE_IMPORT=true
